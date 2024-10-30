@@ -8,11 +8,6 @@ import org.springframework.stereotype.Repository;
 
 import com.tecsup.petclinic.entities.Pet;
 
-/**
- * 
- * @author jgomezm
- *
- */
 @Repository
 public interface PetRepository 
 	extends JpaRepository<Pet, Integer> {
